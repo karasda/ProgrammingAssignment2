@@ -1,7 +1,6 @@
 # This piece of program contains functions which create possibility
 # to speed up your computing by caching time demanding inversion of given matrix.
 
-## Write a short comment describing this function
 # This function constructs an "object" containing two private variables x, inv.
 # The former is matrix and the latter is its cached inverse (or NULL,
 # if the inverse has not been computed yet). Furthermore, it contains public 
