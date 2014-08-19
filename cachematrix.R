@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 # This piece of program contains functions which create possibility
 # to speed up your computing by caching time demanding inversion of given matrix.
 
@@ -37,7 +34,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 # This function checks, whether an inverse of matrix x is cached.
 # If it is true, then it returns cached inverse,
 # otherwise it compute inverse returns it and store it.
